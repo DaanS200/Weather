@@ -1,0 +1,61 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+
+.inputField {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+}
+
+span a {
+    text-decoration: none;
+    color: white;
+}
+
+input {
+    display: flex;
+    align-items: center;
+    background-color: rgb(44, 44, 44);
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.weatherData, .error {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+    padding: 10px;
+    background-color: rgb(44, 44, 44);
+
+    margin-top: 10px;   
+}
+
+span {
+    display: flex;
+    flex-direction: row;
+}
+
+.data {
+    margin-left: 10px;
+}
+
+
+
